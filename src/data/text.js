@@ -1,0 +1,1 @@
+export const text = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ducimus, ipsa eaque impedit aliquam a, officia repudiandae quam sunt error quia harum, asperiores in praesentium corrupti? Voluptatibus, quibusdam. Reiciendis officiis libero voluptas deserunt non velit reprehenderit alias. Dolores, commodi debitis.`;

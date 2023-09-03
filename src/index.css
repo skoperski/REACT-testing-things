@@ -1,0 +1,33 @@
+:root {
+  font-family: sans-serif;
+}
+
+.name {
+  font-size: 36px;
+  padding: 20px 0 0 0;
+  font-weight: 700;
+}
+
+.placeholder {
+  width: auto;
+  height: 60px;
+}
+
+.todoInput {
+  display: flex;
+}
+
+.listItem {
+  font-size: 24px;
+}
+
+.errorMsg {
+  font-size: 16px;
+  color: crimson;
+  padding: 0 0 0 20px;
+}
+
+a {
+  color: purple;
+  cursor: pointer;
+}
