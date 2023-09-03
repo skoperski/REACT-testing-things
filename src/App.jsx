@@ -7,6 +7,7 @@ import { Placeholder } from "./assets/Placeholder";
 import { TodoInput } from "./TodoInput";
 import { Article } from "./Article";
 import { text } from "./data/text";
+import { Users } from "./Users";
 
 function App() {
   const [userName, setUserName] = useState("");
@@ -22,11 +23,7 @@ function App() {
 
   return (
     <>
-      {data.map(({ name, secondName, job }, idx) => (
-        <React.Fragment key={idx}>
-          <Welcome name={name} secondName={secondName} job={job} />
-        </React.Fragment>
-      ))}
+      <Users />
       <Placeholder />
       <NameInput getValue={getValue} />
       <Name name={userName} />
@@ -46,6 +43,12 @@ function App() {
       )}
       <Placeholder />
       <Article text={text} maxLength={35} />
+      <Placeholder />
+      {data.map(({ name, secondName, job }, idx) => (
+        <React.Fragment key={idx}>
+          <Welcome name={name} secondName={secondName} job={job} />
+        </React.Fragment>
+      ))}
     </>
   );
 }

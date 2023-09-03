@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 
 export const TodoInput = ({ getListInput }) => {
-  const [inputValue, setInputValue] = useState([]);
+  const [inputValue, setInputValue] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
 
   const handleInput = (event) => {
