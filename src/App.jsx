@@ -8,6 +8,7 @@ import { TodoInput } from "./TodoInput";
 import { Article } from "./Article";
 import { text } from "./data/text";
 import { Users } from "./Users";
+import { formatFirstLetter } from "./utils/utils";
 
 function App() {
   const [userName, setUserName] = useState("");
@@ -35,7 +36,7 @@ function App() {
           {todo.map((item, idx) => {
             return (
               <li key={idx} className="listItem">
-                {item}
+                {formatFirstLetter(item)}
               </li>
             );
           })}
