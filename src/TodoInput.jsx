@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 
 export const TodoInput = ({ getListInput }) => {
   const [inputValue, setInputValue] = useState("");

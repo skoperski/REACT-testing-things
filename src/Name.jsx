@@ -1,4 +1,3 @@
-import React from "react";
 import { Stranger } from "./assets/Stranger";
 import { Person } from "./assets/Person";
 
